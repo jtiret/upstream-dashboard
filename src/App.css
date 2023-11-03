@@ -1,0 +1,9 @@
+.App-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  margin: 20px auto;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+}

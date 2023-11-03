@@ -1,0 +1,65 @@
+.table-container {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 94%; /* Ajoute la largeur ici */
+  margin: 20px auto; /* Ajoute la marge ici */
+}
+
+.email-table {
+  width: 100%; /* Change la largeur ici */
+  border-collapse: collapse;
+}
+
+.email-table th,
+.email-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.email-table th {
+  background-color: black;
+  color: white;
+}
+
+/* To apply border-radius to the first and last th/td of the top and bottom rows */
+.email-table tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+
+.email-table tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.email-table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+.email-table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Hauteur totale de la fenêtre de visualisation */
+}
+
+td.body {
+  font-size: small;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+td.body p {
+  margin: 3;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
