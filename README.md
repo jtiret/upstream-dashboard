@@ -1,6 +1,6 @@
-# Upstream Dashboard - Peer Programming Assessment
+# Upstream Dashboard
 
-Welcome to the Upstream Dashboard project! This is a fictitious project that simulates fetching and displaying emails from a fictitious API, built mainly using React and React Query.
+Welcome to the Upstream Dashboard project! This is a fictitious project that simulates fetching and displaying emails from a fictitious API, built mainly using React and React Query. The project is designed to be used as a peer programming session.
 
 ## Getting Started
 
